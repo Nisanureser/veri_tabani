@@ -45,31 +45,40 @@ nav a:visited{
 
 }
 #resim{
-    /* background-color: gray; */
+    background-color: gray;
     height: 600px;
-    background-image:url("img/veriler.png");
+    background-image: url("img/344.png");
     background-size: cover;
     background-position:center;
     background-attachment: fixed;
 
 }
-#black{
+/* #black{
     height :600px;
     background-color:black;
-    opacity: 1px;
-
-
-
-}
+    opacity: 15px;
+} */
 #içerik{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    color: white;
+   /* background-color: rgb(51, 118, 188); */
 }
-#Hakkimizda{
-  /* <--  background-color:rgb(0, 140, 255);--> */
+#içerik h1{
+    color: white;
+    text-align: center;
+
+}
+#içerik p{
+    color: white;
+    text-align: center;
+}
+#içerik hr{
+    align-items: center;
+}
+ #Hakkimizda{
+  /* <--  background-color:rgb(0, 140, 255);--> */ 
   padding: 50px;
   text-align: center;
   text-transform: capitalize; /*her kelimenin baş harfi büyük*/
@@ -239,9 +248,9 @@ span{
 #iletisim{
     margin-top: 20px;
     border-radius: 2px solid white;
-    background: url(/img/d756ebcf-98f2-4434-995f-ed439e38d9d2.jpg);
+    /* background: url("img/1531.png"); */
     background-size: cover;
-    padding: 50px;
+    padding: 5px;
     height: auto;
     text-align: center;
    
@@ -252,32 +261,39 @@ span{
 }
 
 #iletisimopak{
-    background: rgb(255,255,255,0.2);
+    background-color: #003666;
     padding: 30px 20px;
-    border-radius: 5px;
+    border-radius: 50px;
     margin-bottom: 50px;
     height: 550px;
 }
 #formgroup{
+    background-color:white;
+    border-radius: 50px;
+    padding: 25px;
     width: 700px;
-    float: left;
-    text-align: left;
+    float: right;
+    text-align: right;
     height: 500px;
 }
 #solform{
     width: 50%;
     float: left;
     padding-right: 5px;
+    padding-bottom: 115px;
+
 }
 #sagform{
     width: 50%;
     float: right;
     padding-left: 5px;
+
 }
 .form-control{
     width: 100%;
     padding: 10px;
     font-size: 15px;
+    line-height: 1.5;
     color: #495057;
     background-color: white;
     margin: 10px;
@@ -291,11 +307,11 @@ textarea{
 input[type="submit"]{
     cursor: pointer;
     background-color: #c9d9e4;
-font-size: 18px;
-padding: 10px 30px;
-letter-spacing: 1px;
-border: 2px solid white;
-border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 30px;
+    letter-spacing: 1px;
+    border: 2px solid white;
+    border-radius: 5px;
 
 }
 #copyright{
@@ -312,13 +328,28 @@ border-radius: 5px;
     margin-top: 20px;
 }
 #kutu{
-    background-color: rgb(51, 13, 13);
-    padding: 10px 10px;
-    margin-left: 200px;
-    margin: 200px;
+    height: 150px;
+    padding: 30px;
+    width: auto;
+   
+    float: left;
+    text-align: center;
+    border-radius: 15px solid black;
+}
+#copyright{
+    color: #003666;
 }
 .img-fluiddeneme{
     max-width: 100%;
     height: 50px;
 
+}
+#socialfooter{
+    padding-top: 13px;
+    align-items: center;
+    height: 70px;
+    border-radius: 15px;
+    
+
+background-color: #003666;
 }

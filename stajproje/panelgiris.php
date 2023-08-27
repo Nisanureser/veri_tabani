@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="stylee.css">
 </head>
 <body>
-    <div class="genel">
 
-<form action="girisoldu.php" method="POST" style="max-width:500px;margin:auto">
+
+    <div class="genel">
+    <form action="girisoldu.php" method="post" style="max-width:500px;margin:auto">
      <h2>Giriş </h2>
      <div class="inputbox">
         <input type="usrnm" name="usrnm"  required="required">
@@ -23,24 +24,21 @@
      </div>
      <input type="submit" value="Giriş" id="deneme">
 </form>
-<div>
-
-    
-
-    
+<div> 
 </body>
 </html>
+
 <?php
 session_start();
 if(isset($_POST["usrnm"],$_POST["psw"])){
   
-  function phpalert($mesaj){
-    echo '<script> alert("'.$mesaj.'");</script>';
-  }
+  // function phpalert($mesaj){
+  //   echo '<script> alert("'.$mesaj.'");</script>';
+  // }
 
   if($_POST["usrnm"]=="nisanur" && $_POST["psw"]=="123456"){
     $_SESSION["user"]=$_POST["usrnm"];
-    header('location:panel.php');
+    header('location:girisoldu.php');
   }
 
   else{

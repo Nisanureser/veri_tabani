@@ -21,7 +21,7 @@ include("baglanti/baglanti.php");
 <body>
 
     <section id="menü">
-        <div id="logo">İstanbul Büyük Şehir Belediyesi</div>
+        <div id="logo">İstanbul Büyükşehir Belediyesi</div>
         <nav>
             <a href = " "> <i class="fa-solid fa-house ikon "></i> Anasayfa</a>
             <a href = " "> <i class="fa-solid fa-circle-info ikon "></i> Hakkımızda </a>
@@ -39,7 +39,7 @@ include("baglanti/baglanti.php");
         
         <div id="içerik">
             <h1>İstanbul</h2>
-           <hr width="300" align="left"> <!-- çizği  -->
+           <hr width="300" align="center"> <!-- çizği  -->
            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas optio adipisci inventore debitis itaque quibusdam numquam, magnam dolor dolore fuga omnis, laudantium illum harum. Minima a quasi rerum dolores, nihil sunt ducimus mollitia quibusdam inventore esse libero quaerat recusandae quis placeat doloremque facere, laudantium repellendus asperiores dolore tenetur. Natus, totam. Eaque, corporis modi pariatur aperiam qui dolor in quis, inventore ratione id quas. Quaerat rerum non sint architecto odio cumque sit aperiam explicabo quibusdam ipsa est optio consectetur quidem in ad quod, quis vel suscipit cupiditate doloribus atque soluta? Voluptatem sapiente modi corrupti cum, temporibus voluptas mollitia iure et enim? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, incidunt!</p>
         </div>
 
@@ -165,32 +165,28 @@ include("baglanti/baglanti.php");
     </section>
     <section id="iletisim">
         <div class="container">
-            <h3 h3iletisim>İletişim</h3>
+            <h3 h3iletisim>Talepleriniz</h3>
+            <form action="baglanti/baglanti.php" method="POST">
             <div id="iletisimopak">
                 <div id="formgroup">
-                <form action="baglanti/baglanti.php" method="POST">
+               
 
                     <div id="solform">           
                     <input type="text" name="isim" placeholder="Ad Soyad" required class="form-control"> 
                     <input type="text" name="tel" placeholder="Telefon Numrası" required class="form-control"> 
+                    
                     </div>
 
                     <div id="sagform">       
                     <input type="text" name="Email" placeholder="Email Adresi" required class="form-control"> 
                     <input type="text" name="Konu" placeholder="Konu Başligi" required class="form-control">
                     <textarea name="mesaj" id="" cols="30" rows="10" placeholder="Mesaj Giriniz" class="form-control"></textarea>
+                    
                     <input type="submit"  value="Gönder">
+                    
+                    
                     </div>
-                
-                </form>
-                        
-             </div>
-
-          </div>
-        </div>
-            
-<!--            
-            <div id="kutu">   
+                    <div id="kutu">   
             <footer>
                 <div id="copyright">2023|Tüm Haklar Saklıdır</div>
                 <div id="socialfooter">
@@ -201,7 +197,16 @@ include("baglanti/baglanti.php");
 
                 <a href="#menu" ><i class="fa-solid fa-caret-up" id="up"></i></a>
             </footer>
-            </div> -->
+             </div>     
+                </div>
+                </form>   
+                
+          </div>
+        </div>
+        
+            
+           
+           
         </section>
 
 

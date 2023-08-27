@@ -10,10 +10,15 @@ include("baglanti/baglanti.php");
     <title>AnaSayfa</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="veri.css">
+    <!-- <link rel="stylesheet" href="stylee.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="stylesheet" href="owl/owl.carousel.min.css">
     <link rel="stylesheet" href="owl/owl.theme.default.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Labrada:ital,wght@1,900&family=Roboto:wght@300&display=swap" rel="stylesheet">
 
 
 
@@ -21,7 +26,7 @@ include("baglanti/baglanti.php");
 <body>
 
     <section id="menü">
-        <div id="logo">İstanbul Büyük Şehir Belediyesi</div>
+        <div id="logo">İstanbul Büyükşehir Belediyesi</div>
         <nav>
             <a href = " ">  <i class="fa-solid fa-user"></i> Hoşgeldiniz</a>
 
@@ -32,12 +37,18 @@ include("baglanti/baglanti.php");
     <section id="resim">
     
         <div id="içerik">
+            <div id="baslik"> 
+                
 
             <h1>İstanbul-Veri Setleri</h1>
+            </div>
 
-           <hr width="300" align="left">    <!-- çizği  -->
-           <a href="http://localhost/stajproje/exeldeneme.php" target=_blank>
-           <p>Yolculuk Türü Bazında Yolcu Sayısı</p>
+           <hr width="300" align="center">    <!-- çizği  -->
+           <a href="http://localhost/stajproje/exeldeneme.php" target=_blank  style="text-decoration:none" >
+           <p>--Yolculuk Türü Bazında Yolcu Sayısı</p>
+           </a>
+           <a href="http://localhost/stajproje/panel.php" target=_blank style="text-decoration:none" >
+           <p>--Talepler</p>
            </a>
            
         </div>

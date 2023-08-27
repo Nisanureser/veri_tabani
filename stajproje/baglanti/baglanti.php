@@ -24,7 +24,7 @@ if($baglanti){
     $ekle="INSERT INTO deneme2 (isim, tel, Email, Konu, mesaj) VALUES('$isim','$tel','$Email','$Konu','$mesaj')";
     $calistirekle=mysqli_query($baglanti,$ekle);
     if($calistirekle){
-        echo 'olduuu';
+        echo 'Talebiniz Alınmıştır';
     }
 
 

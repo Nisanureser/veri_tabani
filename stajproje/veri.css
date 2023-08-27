@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+#resim{
+    background-image: url("img/veriler.png");
+}
+#içerik{
+     /* background-color: #354259; */
+    border-radius: 5px solid white;
+    text-align: center;
+    color: black;
+    height: 150px;
+    width: 300px;
+    
+
+}
+#baslik{
+    height: 100px;
+    width: auto;
+    background-color: #d08da6;
+    border-radius: 50px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+#baslik h1{
+    color: white;
+}
+#içerik p{
+
+    height: 60px;
+    width: auto;
+    background-color: aliceblue;
+    border-radius: 25px;
+    color: black;
+    padding-top: 10px;
+}

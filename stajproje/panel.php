@@ -1,4 +1,10 @@
-  <?php
+ <?php
+ include("baglanti/baglanti.php");
+ ?>
+ 
+ 
+ 
+ <?php
   $vt_sunucu="localhost";
   $vt_kullanici="root";
   $vt_parola="";
@@ -19,7 +25,7 @@
       $mesaj=$_POST["mesaj"];
      
   
-      $ekle="INSERT INTO deneme2 (Ad Soyad, Telefon, Email, Konu, mesaj) VALUES('$isim','$tel','$Email','$Konu','$mesaj')";
+      $ekle="INSERT INTO deneme2 (isim, tel, Email, Konu, mesaj) VALUES('$isim','$tel','$Email','$Konu','$mesaj')";
       $calistirekle=mysqli_query($baglanti,$ekle);
     }
    
@@ -75,13 +81,13 @@
     //   echo '<script> window.location.href='$cikisphp'</script>';
     // }
 
-      session_start();
-      if($_SESSION["user"]==""){
-          //echo "location.href='cikis.php";
-          header('location:cikis.php');
+    //   session_start();
+    //   if($_SESSION["user"]==""){
+    //       //echo "location.href='cikis.php";
+    //       header('location:cikis.php');
 
-       }
-     else{
+    //    }
+    //  else{
       
          //echo "kullanı adınız: " .$_SESSION['user']. "<br>";
         // echo "ÇIKIŞ YAP";
@@ -105,7 +111,7 @@
         echo "veritabaninde veri yok";
 
         }
-       }
+       
         
         mysqli_close($baglanti);
     
